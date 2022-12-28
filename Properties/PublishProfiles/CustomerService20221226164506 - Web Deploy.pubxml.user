@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAm65ZuInqqUeTaRVcaUz4VAAAAAACAAAAAAAQZgAAAAEAACAAAAAjtoBEGEg/cPnFm1Bu6oAdE4UoJPi17mtpjl5eVmzkJwAAAAAOgAAAAAIAACAAAABZJMJLwe8Enq5mEn3j1DHJCwaB7oOuMkJWlxuwG+0RJYAAAAAke1blNCQMuBrr331o5EJUFPPjrgCZRLOROdac7gO6LDSynloNJg5zqdD41ipuNQYGqYm6hVjE2sq5U7iSaCD5oXkYnn94wOXBgpKQGKxXaEojlmEtr2Gs3NjNJ/yk9LsAweuIxgHyFSm1TGGpSjjgEKrPu0I7MvyZGElSp2RHmUAAAACDFfxcY0sS8BMSb7r6MSYfdnCVr8G0TVibRhHOTsmu4r+83WndItf122BBD+6INFF2g3wynygwL8xOfG/f3/Yl</EncryptedPassword>
+    <History>True|2022-12-28T06:25:33.9354244Z;True|2022-12-28T11:40:26.2569349+05:30;True|2022-12-28T10:33:40.5668443+05:30;True|2022-12-28T04:48:50.6639496+05:30;True|2022-12-28T00:45:10.3487469+05:30;True|2022-12-28T00:40:30.1217478+05:30;True|2022-12-28T00:12:19.3500789+05:30;True|2022-12-27T22:53:41.3678706+05:30;True|2022-12-27T10:23:00.4870000+05:30;True|2022-12-26T20:44:03.5696356+05:30;True|2022-12-26T17:47:36.4418831+05:30;True|2022-12-26T17:38:28.4953403+05:30;True|2022-12-26T17:16:14.1629322+05:30;True|2022-12-26T17:03:43.8927684+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="CustomerServiceContext">
+      <Value>Server=tcp:k2284425-sapm-cw1-customerservice.database.windows.net,1433%3bInitial Catalog=customer-data%3bPersist Security Info=False%3bUser ID=k2284425-sapm-cw1-customerservice%3bPassword=bZk%2533zK8L&amp;EPtpP%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CustomerService.Data.CustomerServiceContext">
+      <Value>Server=tcp:k2284425-sapm-cw1-customerservice.database.windows.net,1433%3bInitial Catalog=customer-data%3bPersist Security Info=False%3bUser ID=k2284425-sapm-cw1-customerservice%3bPassword=bZk%2533zK8L&amp;EPtpP%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

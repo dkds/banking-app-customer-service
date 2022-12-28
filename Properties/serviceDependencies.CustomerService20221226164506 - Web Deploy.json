@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "apis1": {
+      "apiEndpoint": "https://k2284425-sapm-cw1.azure-api.net/customer-service",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/K2284425-SAPM-CW1/apis/customer-service",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/k2284425-sapm-cw1-customerservice/databases/customer-data",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:CustomerServiceContext",
+      "dynamicId": null
+    },
+    "redis1": {
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Cache/Redis/k2284425-sapm-cw1",
+      "type": "redis.azure",
+      "connectionId": "CacheConnection"
+    }
+  }
+}
